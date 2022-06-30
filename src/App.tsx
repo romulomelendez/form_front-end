@@ -1,1 +1,3 @@
-export const App: React.FC = () => <h1>Hello, world!</h1>
+import { FormPage } from './pages/FormPage'
+
+export const App: React.FC = () => <FormPage />
